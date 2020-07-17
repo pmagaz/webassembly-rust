@@ -14,7 +14,7 @@ $ npm start / yarn start
 
 Examples are located in crate/src :
 
-* `multiply.tsx` Simple multiply example.
+* `multiply.rs` Simple multiply example.
 * `draw_canvas.rs` Canvas example
 * `rust_struct.rs` Sharing Rust structs with JavaScript
 * `hello_dom.rs` Writing in DOM from Rust/WebAssembly.
