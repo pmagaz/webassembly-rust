@@ -1,0 +1,40 @@
+[package]
+name = "rustwasm-typescfript-starter"
+version = "0.1.0"
+authors = ["Pablo Magaz <magazpablo@gmail.com>"]
+description = "Rust WebAssembly starter with Parcel, TypeScript and more"
+license = "Apache-2.0/MIT"
+readme = "./README.md"
+repository = "https://github.com/pmagaz/rustwasm-parcel-starter"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = { version  = "0.2.63", features = ["serde-serialize"]  }
+wasm-bindgen-futures = "0.4.13"
+js-sys = "0.3.40"
+wee_alloc = { version = "0.4.5", optional = true }
+serde = { version = "1.0.113", features = ["derive"] }
+console_error_panic_hook = { version = "0.1.5", optional = true }
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'Document',
+  'Element',
+  'HtmlElement',
+  'Node',
+  'Window',
+  'Headers',
+  'Request',
+  'RequestInit',
+  'RequestMode',
+  'Response',
+  'HtmlCanvasElement',
+  'CanvasRenderingContext2d',
+]
+
+[features]
+default = ["console_error_panic_hook"]
