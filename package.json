@@ -1,11 +1,11 @@
 {
-  "name": "WebAssembly with Rust examples",
+  "name": "webassembly-rust",
   "version": "1.0.0",
-  "description": "WebAssembly ",
+  "description": "WebAssembly with Rust examples ",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src --ext .ts --ext .js --ignore-pattern '**/specs/*'",
-    "start": "parcel  src/index.html -p 8000",
+    "start": "parcel  src/index.html -p 8000"
   },
   "keywords": [
     "webassembly",
@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
+    "@babel/preset-typescript": "^7.10.4",
     "babel-eslint": "10.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "5.16.0",
@@ -29,8 +30,7 @@
     "@babel/preset-env": "^7.4.3",
     "body-parser": "1.18.3",
     "core-js": "^3.6.5",
-    "cross-env": "5.2.0",
     "parcel-bundler": "1.12.3",
-    "parcel-plugin-wasm.rs": "^1.2.8",
+    "parcel-plugin-wasm.rs": "^1.2.8"
   }
 }
