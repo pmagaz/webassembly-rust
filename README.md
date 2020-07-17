@@ -4,7 +4,7 @@ WebAssembly/Rust examples using with parcel.
 
 ## Installation & Running
 
-Once you have cloned repository, install dependencies and launch the server.
+Once you have cloned repository, install dependencies and launch the development server with the examples.
 
 ```
 $ npm install / yarn install
