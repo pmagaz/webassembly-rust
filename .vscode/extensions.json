@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "vscode-icons-team.vscode-icons",
+    "esbenp.prettier-vscode",
+    "bungcip.better-toml",
+    "rust-lang.rust",
+    "esbenp.prettier-vscode",
+    "dtsvet.vscode-wasm"
+  ]
+}
